@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void createButtonClickedPick(View view){
-        System.out.println("Pick clicked");
+        System.out.println("Pick clicked!");
         Intent selView = new Intent(this, PickTodoActivity.class);
         selView.putExtra(EXTRA_TODO_SELECT,0);
         startActivity(selView);
     }
     public void createButtonClickedDelete(View view){
-        System.out.println("Delete clicked");
+        System.out.println("Delete clicked!");
         Intent selView = new Intent(this, PickTodoActivity.class);
         selView.putExtra(EXTRA_TODO_SELECT,1);
         startActivity(selView);
